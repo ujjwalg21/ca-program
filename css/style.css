@@ -344,7 +344,7 @@ header {
 #whyca-h1 {
     color: #2A2A2A;
     background-color: white !important;
-    font-size: x-large;
+    /*font-size: x-large;*/
     padding: 10px 10px;
     text-align: center;
     display: inline-block;
@@ -352,10 +352,7 @@ header {
     left: 20%;
     font-weight: bold;
     margin-bottom: 45px;
-    border-bottom-style: solid;
-    border-bottom-width: 4.5px;
-    padding-bottom: 2px;
-    border-color: #E64E04;
+   
 }
 
 #whyca .square-box {
@@ -366,12 +363,12 @@ header {
 .square-box h3 {
     color: #F8A728;
     font-weight: bold;
-    font-size: large;
+    font-size: 2em;
     margin-bottom: 40px;
 }
 
 .square-box p {
-    text-align: left;
+    text-align: center;
     color: white;
 }
 
@@ -380,7 +377,7 @@ header {
 
 #responsibilities {
     background-color: #141414;
-    border-radius: 140px 140px 0px 0px;
+   
     min-height: 100vh;
     padding-top: 100px;
     margin-bottom: -3px;
@@ -396,7 +393,7 @@ header {
     color: white;
     text-transform: uppercase;
     background-color: #141414;
-    font-size: x-large;
+   /* font-size: x-large;*/
     padding: 10px 15px;
     text-align: center;
     display: inline-block;
@@ -404,10 +401,7 @@ header {
     left: 20%;
     font-weight: bold;
     margin-bottom: 45px;
-    border-bottom-style: solid;
-    border-bottom-width: 4.5px;
-    padding-bottom: 3px;
-    border-color: #E64E04;
+    
     font-family: "Montserrat", sans-serif;
     position: relative;
     left: 1%;
@@ -445,7 +439,6 @@ header {
     min-height: 100vh;
     padding-top: 100px;
     margin-bottom: -3px;
-    border-radius: 170px;
 }
 
 #contact h4 {
@@ -487,10 +480,7 @@ header {
     left: 20%;
     font-weight: bold;
     margin-bottom: 45px;
-    border-bottom-style: solid;
-    border-bottom-width: 4.5px;
-    padding-bottom: 3px;
-    border-color: #E64E04;
+    
     font-family: "Montserrat", sans-serif;
     position: relative;
     left: 1%;
@@ -508,6 +498,7 @@ header {
 #contact img {
     border-radius: 60%;
     margin-left: -35px;
+    object-fit:cover;
 }
 
 
@@ -527,7 +518,7 @@ header {
 #associates h2 {
     color: #2A2A2A;
     font-family: "Montserrat", sans-serif;
-    font-size: 15px;
+    font-size: 30px;
     margin-bottom: 0px;
     background-color: #F8A728;
     padding-left: 20px;
@@ -555,18 +546,16 @@ header {
 #associates h1 {
     color: white;
     text-transform: uppercase;
-    font-size: x-large;
+   /* font-size: x-large;*/
     padding: 10px 10px;
     text-align: center;
     display: inline-block;
     position: relative;
     left: 0%;
     font-weight: bold;
-    margin-bottom: 45px;
-    border-bottom-style: solid;
-    border-bottom-width: 4.5px;
-    padding-bottom: 2px;
-    border-color: #E64E04;
+
+    
+    
 }
 
 #associates .col-md-4 {
@@ -597,7 +586,7 @@ header {
     margin: 15px;
     padding: 15px;
     background-color: white;
-    border-radius: 80px;
+    border-radius: 200px;
 }
 
 #associates img {
@@ -629,7 +618,7 @@ header {
 
 #apply-now h3 {
     text-align: center;
-    background-color: white;
+  
     display: inline-block;
     width: fit-content;
     padding: 15px;
@@ -717,7 +706,8 @@ footer a i {
 }
 
 .icon-image {
-    max-width: 180px;
+    max-width: 190px;
+    max-height:70px;
     float: left;
     margin: 0px 3px 100px 110px;
     position: relative;
@@ -742,6 +732,8 @@ footer a i {
 .rect {
     background: #2B2B2B;
     border-radius: 60px;
+    margin-left: 20px;
+    margin-right:-20px ;
     margin-top: 50px;
     height: 170px;
     width: 380px;
