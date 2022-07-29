@@ -472,7 +472,7 @@ header {
     color: #2A2A2A;
     text-transform: uppercase;
     background-color: white;
-    font-size: x-large;
+    /*font-size: x-large;*/
     padding: 10px 20px;
     text-align: center;
     display: inline-block;
@@ -529,6 +529,7 @@ header {
     padding-bottom: 5px;
     font-weight: 700;
     width: fit-content;
+   /*margin-left:40px;*/
 }
 
 #ip {
@@ -886,6 +887,8 @@ Responsive media queries
     .about-text {
         text-align: left;
         font-size: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .square-shadow-left {
         width: 85%;
