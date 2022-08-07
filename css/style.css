@@ -29,6 +29,12 @@
 html {
     scroll-behavior: smooth;
 }
+.imges
+{border-radius:50%;
+    height: 197px;
+width: 197px;
+
+}
 
 body {
     /* background-color: #141414; */
@@ -508,7 +514,7 @@ header {
 /* Associates */
 
 #associates {
-    background-image: url(../img/background_associates.png);
+   
     min-height: 100vh;
     padding-top: 100px;
     margin-bottom: -3px;
