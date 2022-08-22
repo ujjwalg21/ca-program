@@ -273,7 +273,7 @@ border-radius: 10px;
     border-radius: 19px;
 }
 
-.navbar-border {}
+/* .navbar-border {} */
 
 .banner-text {
     /* border-left: 5px solid #BE2525; */
@@ -286,7 +286,7 @@ border-radius: 10px;
     font-size: 60px;
     background-color: whitesmoke;
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     /* font-family: 'Questrial', sans-serif; */
     font-family: "raleway-heavy";
     text-transform: uppercase;
@@ -308,9 +308,9 @@ border-radius: 10px;
     margin-left: -130px;
 }
 
-.overlay-detail {
+/* .overlay-detail {
     /* margin: 0 auto; */
-}
+
 
 .border-red {
     border-color: red !important;

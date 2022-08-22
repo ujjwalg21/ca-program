@@ -1,0 +1,152 @@
+.image11,.image12 {
+  position: relative;
+  margin: auto;
+  display: block;
+  height: 170px;
+  top: 18px;
+  z-index: 1;
+}
+
+.box11,.box12 {
+  box-sizing: content-box;
+  display: block;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  width: 50%;
+  transition: transform 0.5s;
+  padding: 8px;
+}
+p {
+  padding: 2vh 5vw;
+}
+
+.heading {
+  position: relative;
+  width: 70%;
+  height: 7.29927007299%;
+  left: 15%;
+  top: 0%;
+
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+
+  color: #000000;
+
+  text-shadow: 0px 4px 4px #ffbe55;
+  background: #ffffff;
+}
+
+
+  .contentbox{
+    background-color: black;
+    color: white;
+    box-sizing: content-box;
+    border-radius: 20px;
+    /* height: 35vh; */
+    margin: 2vh;
+    display: inline-block;
+    
+  }
+  .col-md-3{
+    width: 35%;
+    left: 15vw;
+    display: inline;
+  }
+.image2{
+    height: 13vh;
+}
+
+
+  .col-md-8{
+    display: inline;
+  }
+
+
+  @media (max-width:1000px) {
+    .col-md-3{
+      left: -15px;
+      margin: auto;
+    }
+    .box11,.box12{
+      width: 80%;
+    }
+    .image11,.image12{
+      margin-top: 40px;
+    
+
+      
+    }
+    .intern{
+      position: relative;
+      left: 26vw;
+    }
+    .goodies{
+      position: relative;
+      left: 26vw;
+    }
+    .outreach{
+      position: relative;
+      left: 26vw;
+    }
+    .course{
+      position: relative;
+      left: 24vw;
+    }
+    .workshop{
+      position: relative;
+      left: 23vw;
+    }
+    
+    #contact img{
+      margin-left: 0px;
+    }
+    
+    
+  }
+  @media (min-width: 1001px) {
+    
+    .box11,.image11{
+      right: 20% ;
+    }
+    .box12,.image12{
+      left: 20%;
+    }
+    #contact{
+      margin-top: 90vh;
+    }
+    .intern{
+      position: relative;
+      left: 15vw;
+    }
+    .goodies{
+      position: relative;
+      left: 15vw;
+    }
+    .outreach{
+      position: relative;
+      left: 15vw;
+    }
+    .course{
+      position: relative;
+      left: 44vw;
+    }
+    .workshop{
+      position: relative;
+      left: 44vw;
+    }
+  
+    .col-sm-4{
+      left: 27.5vw;
+    }
+    #contact img{
+      margin-left: 1px;
+    }
+  }
