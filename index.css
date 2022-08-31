@@ -16,7 +16,7 @@
   background-color: black;
   color: white;
   border-radius: 20px;
-  width: 50%;
+  width: 45%;
   transition: transform 0.5s;
   padding: 8px;
 }
@@ -113,11 +113,20 @@ p {
   }
   @media (min-width: 1001px) {
     
-    .box11,.image11{
-      right: 20% ;
+    .box11{
+      right: 15% ;
     }
-    .box12,.image12{
-      left: 20%;
+    .image11{
+      right: 38%;
+      top: 22vh;
+      position: relative;
+    }
+    .box12{
+      left: 15%;
+    }
+    .image12{
+      right: 8%;
+      top: 22vh;
     }
     #contact{
       margin-top: 90vh;
