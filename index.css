@@ -24,7 +24,26 @@ p {
   padding: 2vh 5vw;
 }
 
-.heading {
+.heading1 {
+  position: relative;
+  width: 70%;
+  height: 7.29927007299%;
+  left: 15%;
+  top: 0%;
+
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+
+  color: #000000;
+
+  text-shadow: 0px 4px 4px #ffbe55;
+  background: #ffffff;
+}
+.heading2 {
   position: relative;
   width: 70%;
   height: 7.29927007299%;
@@ -52,13 +71,15 @@ p {
     border-radius: 20px;
     /* height: 35vh; */
     margin: 2vh;
-    display: inline-block;
+    /* display: inline-block; */
     
   }
   .col-md-3{
-    width: 35%;
+    width: 20%;
     left: 15vw;
     display: inline;
+    /* display: flex;
+    flex-direction: column; */
   }
 .image2{
     height: 13vh;
@@ -86,27 +107,31 @@ p {
     }
     .intern{
       position: relative;
-      left: 26vw;
+      
+      left: 4.8vw;
     }
     .goodies{
       position: relative;
-      left: 26vw;
+      left: 20vw;
     }
     .outreach{
       position: relative;
-      left: 26vw;
+      left: 20vw;
     }
     .course{
       position: relative;
-      left: 24vw;
+      left: 20vw;
     }
     .workshop{
       position: relative;
-      left: 23vw;
+      left: 20vw;
     }
     
     #contact img{
       margin-left: 0px;
+    }
+    .contentbox{
+      display: inline-block;
     }
     
     
@@ -115,41 +140,55 @@ p {
     
     .box11{
       right: 15% ;
+      top: -18vh;
     }
     .image11{
-      right: 38%;
-      top: 22vh;
+      right: 40%;
+      top: 4vh;
       position: relative;
     }
     .box12{
-      left: 15%;
+      left: 18%;
+      top: -18vh;
     }
     .image12{
       right: 8%;
-      top: 22vh;
+      top: 4vh;
     }
     #contact{
-      margin-top: 90vh;
+      margin-top: 50vh;
+
     }
     .intern{
       position: relative;
-      left: 15vw;
+      /* left: 15vw; */
+      margin: auto;
+      display: flex;
+      left: -5vw;
+      flex-direction: column;
+    }
+    .imges{
+      width: 180px;
     }
     .goodies{
       position: relative;
-      left: 15vw;
+      margin: auto;
+      left: 1.5vw;
     }
     .outreach{
       position: relative;
-      left: 15vw;
+      margin: auto;
+      left: 3.5vw;
     }
     .course{
       position: relative;
-      left: 44vw;
+      margin: auto;
+      left: 28vw;
     }
     .workshop{
       position: relative;
-      left: 44vw;
+      margin: auto;
+      left: 28vw;
     }
   
     .col-sm-4{
@@ -158,4 +197,35 @@ p {
     #contact img{
       margin-left: 1px;
     }
+    .col-md-3{
+      display: flex;
+      flex-direction: column;
+      width: 20vw;
+      left: 10vw;
+      
+      
+    }
+    .contentbox{
+      height: 50vh;
+
+    }
+    .box{
+      top: -13vh;
+    }
+    p{
+      padding: 2vh 2vw;
+      
+    }
+    .heading2{
+      top: -15vh;
+    }
+    .col-sm-3{
+      width: 250px;
+    
+    }
+    
+    /* .row2,.row3,.row4,.row5{
+      margin-left: 0px;
+    } */
+    
   }
